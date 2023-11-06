@@ -2,7 +2,9 @@ package kminsik.core.discount;
 
 import kminsik.core.member.Grade;
 import kminsik.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int dicountPercent = 10;
