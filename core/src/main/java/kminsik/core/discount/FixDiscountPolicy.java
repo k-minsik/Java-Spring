@@ -2,7 +2,9 @@ package kminsik.core.discount;
 
 import kminsik.core.member.Grade;
 import kminsik.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class FixDiscountPolicy implements DiscountPolicy {
 
     private int discountFixAmount = 1000;

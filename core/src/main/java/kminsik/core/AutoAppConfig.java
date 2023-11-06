@@ -14,8 +14,8 @@ import org.springframework.context.annotation.FilterType;
 public class AutoAppConfig {
     // 기존 AppConfig와 다르게 @Bean으로 등록한 클래스가 없음
 
-    @Bean(name = "memoryMemberRepository")
-    public MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    public MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
