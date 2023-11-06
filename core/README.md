@@ -71,3 +71,21 @@
   -  스프링은 클래스의 바이트코드를 조작하는 라이브러리를 사용
   -  스프링이 CGLIB라는 바이트코드 조작 라이브러리를 사용해서 AppConfig 클래스를 상속받은 임의의 다 른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록한 것
   -  @Configuration 을 적용하지 않고, @Bean 만 적용하면, AppConfig가 CGLIB 기술 없이 순수한 AppConfig로 스프링 빈에 등록
+
+# 5. 컴포넌트 스캔
+- 스프링은 설정 정보가 없어도 자동으로 스프링 빈을 등록하는 `컴포넌트 스캔`기능 제공
+- 의존관계도 자동으로 주입하는 `@Autowired` 기능 제공
+- `@ComponentScan` 은 `@Component` 가 붙은 모든 클래스를 스프링 빈으로 등록
+  - 스프링 빈의 기본 이름은 클래스명을 사용하되 맨 앞글자만 소문자를 사용
+- `@Autowired` 를 지정하면, 스프링 컨테이너가 자동으로 해당 스프링 빈을 찾아서 주입
+- 스캔 대상
+  - `@Component`, `@Controller`, `@Service`, `@Repository`, `@Configuration`
+- 필터
+  - `includeFilters` : 컴포넌트 스캔 대상을 추가로 지정
+  - `excludeFilters` : 컴포넌트 스캔에서 제외할 대상을 지정
+- 중복 등록과 충돌
+  - 자동 빈 등록 vs 자동
+    - `ConflictingBeanDefinitionException` 예외 발생
+  - 수동 빈 등록 vs 자동
+    - 수동 빈이 자동 빈을 오버라이딩 해서 우선권을 가짐
+    - 최신 버젼은 일단 오류를 내지만 설정 변경으로 오버라이딩 할수 있음
