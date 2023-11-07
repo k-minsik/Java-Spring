@@ -35,3 +35,18 @@ out/
 
 ### VS Code ###
 .vscode/
+
+
+### code
+src/main/java/kminsik/core/AppConfig.java
+src/main/java/kminsik/core/order/OrderServiceImpl.java
+src/main/java/kminsik/core/common/MyLogger.java
+src/main/java/kminsik/core/web/LogDemoController.java
+src/main/java/kminsik/core/OrderApp.java
+src/test/java/kminsik/core/autowired/AllBeanTest.java
+src/test/java/kminsik/core/beanfind/ApplicationContextExtendsFindTest.java
+src/test/java/kminsik/core/beanfind/ApplicationContextSameBeanFindTest.java
+src/test/java/kminsik/core/scan/AutoAppConfigTest.java
+src/test/java/kminsik/core/scan/filter/ComponentFilterAppConfigTest.java
+src/test/java/kminsik/core/scope/SingletonWithPrototype.java
+src/test/java/kminsik/core/singleton/SingletonService.java
