@@ -61,7 +61,6 @@
 
 - 프로토타입 스코프 - 싱글톤 빈과 함께 사용시 문제점
 - ObjectFactory, ObjectProvider
-
 - 웹 스코프
   - request, session, application, websockect
 - 웹 코프와 프록시 동작 원리
