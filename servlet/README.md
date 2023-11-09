@@ -30,8 +30,12 @@
 ## 2. 서블릿
 - 스프링 부트 환경에서 서블릿 등록/사용
 - HttpServerRequest
-- Http 요청 데이터
-  - GET - 쿼리 파라미터
-  - POST - HTML Form
-    - PostMan
-  - HTTP message body
+  - Http 요청 데이터
+    - GET - 쿼리 파라미터
+    - POST - HTML Form
+      - PostMan
+    - HTTP message body
+      - JSON, Text
+- HttpServerResponse
+  - Http 응답 데이터
+    - 단순 텍스트, HTML
