@@ -38,10 +38,10 @@ out/
 /src/main/java/kminsik/servlet/basic/response/ResponseHeaderServlet.java
 /src/main/java/kminsik/servlet/basic/request/RequestHeaderServlet.java
 /src/main/java/kminsik/servlet/basic/request/RequestParamServlet.java
-/src/main/java/kminsik/servlet/web/frontController/v5/FrontControllerServletV1.java
-/src/main/java/kminsik/servlet/web/frontController/v5/FrontControllerServletV2.java
-/src/main/java/kminsik/servlet/web/frontController/v5/FrontControllerServletV3.java
-/src/main/java/kminsik/servlet/web/frontController/v5/FrontControllerServletV4.java
+/src/main/java/kminsik/servlet/web/frontController/v1/FrontControllerServletV1.java
+/src/main/java/kminsik/servlet/web/frontController/v2/FrontControllerServletV2.java
+/src/main/java/kminsik/servlet/web/frontController/v3/FrontControllerServletV3.java
+/src/main/java/kminsik/servlet/web/frontController/v4/FrontControllerServletV4.java
 /src/main/java/kminsik/servlet/web/frontController/v5/FrontControllerServletV5.java
-/src/main/java/kminsik/servlet/web/frontController/MyView
+/src/main/java/kminsik/servlet/web/frontController/MyView.java
 
