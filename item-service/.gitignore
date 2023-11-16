@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+/src/main/resources/templates/basic/items.html
+/src/main/resources/templates/basic/addForm.html
+/src/main/resources/static/html/items.html
+/src/main/resources/static/html/addForm.html
