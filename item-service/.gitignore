@@ -39,3 +39,4 @@ out/
 /src/main/resources/templates/basic/addForm.html
 /src/main/resources/static/html/items.html
 /src/main/resources/static/html/addForm.html
+/src/main/java/kminsik/itemservice/web/basic/BasicItemController.java
